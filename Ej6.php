@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Ejercicio 6</title>
+    <script src="ensayo.js"></script>
 </head>
 <body>
     <fieldset><legend>Ascendencia de 2 numeros</legend>
@@ -11,6 +12,7 @@
             <label for="">Numero 2</label><br>
             <input type="number" name="num2"><br><br>
             <input type="submit" name="Calcular">
+            <input type="submit" OnClick="saludar ()" value="Dame ya">
         </form>
     </fieldset>
 <?php
